@@ -49,16 +49,13 @@ public class Lesson4 {
 		// ・ブーリアン型          	 true
 		// Q4 下記の通りにコンソール出力されるようにしてください
 		// 必ず変数を使用すること
-
-		short i = 11110;
-
-		System.out.println(i);
+		
+		//11110
+		System.out.println(num2 + num3 + num4 + num5);
 
 		// 20.0
 
-		double m = 20.0;
-
-		System.out.println(m);
+		System.out.println(num6 + num7);
 
 		// a ハロー true
 
