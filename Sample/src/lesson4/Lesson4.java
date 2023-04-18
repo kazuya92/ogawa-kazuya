@@ -2,22 +2,24 @@ package lesson4;
 
 public class Lesson4 {
 
+	// Q1 下記9個をクラス変数として宣言のみしてください
+	// ・バイト型・短整数型・整数型・長整数型
+	static byte num2;
+	static short num3;
+	static int num4;
+	static long num5;
+	// ・単精度浮動小数点数型・倍精度浮動小数点数型
+	static float num6;
+	static double num7;
+	// ・文字型・文字列型
+	static char num8;
+	static String num9;
+	// ・ブーリアン型
+	static boolean num10;
+
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		// Q1 下記9個をクラス変数として宣言のみしてください
-		//		・バイト型・短整数型・整数型・長整数型
-		// 	・単精度浮動小数点数型・倍精度浮動小数点数型
-		//   	・文字型・文字列型
-		//	 	・ブーリアン型 
-		byte num2;
-		short num3;
-		int num4;
-		long num5;
-		float num6;
-		double num7;
-		char num8;
-		String num9;
-		boolean num10;
+
 		// Q2 それぞれのクラス変数をローカル内でそれぞれの初期値を代入し初期化してください
 		num2 = 0;
 		num3 = 0;
@@ -49,7 +51,7 @@ public class Lesson4 {
 		// ・ブーリアン型          	 true
 		// Q4 下記の通りにコンソール出力されるようにしてください
 		// 必ず変数を使用すること
-		
+
 		//11110
 		System.out.println(num2 + num3 + num4 + num5);
 
