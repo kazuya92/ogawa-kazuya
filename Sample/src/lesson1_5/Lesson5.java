@@ -43,7 +43,7 @@ public class Lesson5 {
 
 		// Q2を下記に記載
 		double bmi = weight / Math.pow(height, 2);
-		 System.out.println("BMIは" + bmi + "です");
+		System.out.println("BMIは" + bmi + "です");
 		// Q3 Q1で宣言した変数に再代入し、下記の通りコンソールに出力してください
 		// 初めまして鈴木一郎です
 		// 年齢は24歳です
@@ -53,18 +53,18 @@ public class Lesson5 {
 		// BMIは22.6です
 
 		// Q3を下記に記載
-		 name = "鈴木一郎";
-		 System.out.println("初めまして" + name + "です");
-		 age = 24;
-		 System.out.println("年齢は" + age + "歳です");
-		 height = 168.5;
-		 System.out.println("身長は" + height + "cmです");
-		 weight = 64.2;
-		 System.out.println("体重は" + weight + "kgです");
-		 String food = "オムライス";
-		 System.out.println("好きな食べ物は" + weight + "です");
-		 bmi = weight / Math.pow(height, 2);
-		 System.out.println("BMIは" + bmi + "です");
+		name = "鈴木一郎";
+		System.out.println("初めまして" + name + "です");
+		age = 24;
+		System.out.println("年齢は" + age + "歳です");
+		height = 168.5;
+		System.out.println("身長は" + height + "cmです");
+		weight = 64.2;
+		System.out.println("体重は" + weight + "kgです");
+		String food = "オムライス";
+		System.out.println("好きな食べ物は" + weight + "です");
+		bmi = weight / Math.pow(height, 2);
+		System.out.println("BMIは" + bmi + "です");
 		// ↓↓コンソール最終結果↓↓
 
 		//	初めまして山田太郎です
